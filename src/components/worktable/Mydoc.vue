@@ -27,8 +27,8 @@
                                         <el-dropdown-item @click.native="detail(item)">
                                             <i class="el-icon-folder-opened"/>打开
                                         </el-dropdown-item>
-                                        <el-dropdown-item @click.native="deleteFavourite(item)">
-                                            <i class="el-icon-collection-tag"/>移除收藏
+                                        <el-dropdown-item @click.native="createFavourite(item)">
+                                            <i class="el-icon-collection-tag"/>收藏
                                         </el-dropdown-item>
                                         <el-dropdown-item @click.native="setLink(item) ; linkvisible=true">
                                             <i class="el-icon-chat-line-round"/>分享
